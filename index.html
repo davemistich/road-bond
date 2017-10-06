@@ -104,6 +104,7 @@
               var COLOR_EVEN = '#f7f7f7';
               var COLOR_NO = '#af8dc3';
               var COLOR_NO_VOTES = '#fff';
+
               // Create a color scale.  Pass it the yes percentage value
               // to get the color
               var fillColor = d3.scaleQuantize()
@@ -122,7 +123,6 @@
               // Formating function for votes
               var voteFormat = d3.format(",");
 
-
               /**
                * Render a results table inside a container.
                *
@@ -130,26 +130,25 @@
                * both tooltips and the totals table.
                */
               var renderResultsTable = function(selection, d) {
-  selection.html(
-    "<h3>" + d.name + "</h3>" +
-    "<table>" +
-    "<thead>" +
-    "<th></th><th>Votes</th><th>%</th>" + "</tr>" +
-    "</thead>" +
-    "<tr>" +
-    "<td>Yes</td>" +
-    "<td>" + voteFormat(d.yes) + "</td>" +
-    "<td>" + pctFormat(d.yes_pct) + "</td>" +
-    "</tr>" +
-    "<tr>" +
-    "<td>No</td>" +
-    "<td>" + voteFormat(d.no) + "</td>" +
-    "<td>" + pctFormat(d.no_pct) + "</td>" +
-    "</tr>" +
-    "</table>"
-
-  );
-};
+                selection.html(
+                  "<h3>" + d.name + "</h3>" +
+                  "<table>" +
+                      "<thead>" +
+                          "<th></th><th>Votes</th><th>%</th>" + "</tr>" +
+                      "</thead>" +
+                  "<tr>" +
+                      "<td>Yes</td>" +
+                      "<td>" + voteFormat(d.yes) + "</td>" +
+                      "<td>" + pctFormat(d.yes_pct) + "</td>" +
+                      "</tr>" +
+                  "<tr>" +
+                      "<td>No</td>" +
+                      "<td>" + voteFormat(d.no) + "</td>" +
+                      "<td>" + pctFormat(d.no_pct) + "</td>" +
+                      "</tr>" +
+                  "</table>"
+                );
+              };
 
               /**
                * Process raw results so there is one result object per county.
@@ -240,7 +239,7 @@
                       // jurisdiction is majorty yes or majorty no.
                       if (d.yes_votes === 0 && d.no_votes === 0) {
                         return COLOR_NO_VOTES;
-                      }   
+                      }
                       if (d.yes_pct === d.no_pct) {
                         return COLOR_EVEN;
                       }
