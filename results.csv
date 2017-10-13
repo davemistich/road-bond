@@ -1,0 +1,17 @@
+ElectionId,Date,Description,Type,OfficialResults,CountyName,Name,PartyCode,PartyName,TicketCode,OfficeCode,OfficeDescription,District,DistrictName,Division,DivisionName,Votes,TotalVotes,Percentage
+16,10/7/2017 0:00,Bond Amendment Election,County,No,Barbour,Against the amendment,,,S,TX,Roads to Prosperity Amendment,0,,0,,0,1,0%
+16,10/7/2017 0:00,Bond Amendment Election,County,No,Barbour,For the amendment,,,S,TX,Roads to Prosperity Amendment,0,,0,,1,1,100%
+16,10/7/2017 0:00,Bond Amendment Election,County,No,Kanawha,Against the amendment,,,S,TX,Roads to Prosperity Amendment,0,,0,,1,2,50%
+16,10/7/2017 0:00,Bond Amendment Election,County,No,Kanawha,For the amendment,,,S,TX,Roads to Prosperity Amendment,0,,0,,1,2,50%
+16,10/7/2017 0:00,Bond Amendment Election,County,No,Wetzel,Against the amendment,,,S,TX,Roads to Prosperity Amendment,0,,0,,10,20,50%
+16,10/7/2017 0:00,Bond Amendment Election,County,No,Wetzel,For the amendment,,,S,TX,Roads to Prosperity Amendment,0,,0,,10,20,50%
+16,10/7/2017 0:00,Bond Amendment Election,County,No,Wyoming,Against the amendment,,,S,TX,Roads to Prosperity Amendment,0,,0,,1,2,50%
+16,10/7/2017 0:00,Bond Amendment Election,County,No,Wyoming,For the amendment,,,S,TX,Roads to Prosperity Amendment,0,,0,,1,2,50%
+16,10/7/2017 0:00,Bond Amendment Election,County,No,Monongalia,Against the amendment,,,S,TX,Roads to Prosperity Amendment,0,,0,,100,100,100%
+16,10/7/2017 0:00,Bond Amendment Election,County,No,Monongalia,For the amendment,,,S,TX,Roads to Prosperity Amendment,0,,0,,0,100,0%
+16,10/7/2017 0:00,Bond Amendment Election,County,No,Wood,Against the amendment,,,S,TX,Roads to Prosperity Amendment,0,,0,,10,30,33%
+16,10/7/2017 0:00,Bond Amendment Election,County,No,Wood,For the amendment,,,S,TX,Roads to Prosperity Amendment,0,,0,,20,30,67%
+16,10/7/2017 0:00,Bond Amendment Election,County,No,Hancock,Against the amendment,,,S,TX,Roads to Prosperity Amendment,0,,0,,10,30,33%
+16,10/7/2017 0:00,Bond Amendment Election,County,No,Hancock,For the amendment,,,S,TX,Roads to Prosperity Amendment,0,,0,,20,30,67%
+16,10/7/2017 0:00,Bond Amendment Election,Statewide,No,,Against the amendment,,,S,TX,Roads to Prosperity Amendment,0,,0,,13,26,50%
+16,10/7/2017 0:00,Bond Amendment Election,Statewide,No,,For the amendment,,,S,TX,Roads to Prosperity Amendment,0,,0,,13,26,50%
